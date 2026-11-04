@@ -38,7 +38,7 @@ fi
 
 mkdir -p ~/.termux/ascii ~/.config/fastfetch ~/.termux/icons
 touch ~/.hushlogin
-echo "Reinhart" > ~/.termux_user
+echo "detox-slxsh" > ~/.termux_user
 
 REPO_USER="detox-slxsh"
 REPO_NAME="My-termux-zsh"
