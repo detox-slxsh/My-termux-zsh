@@ -29,7 +29,7 @@ Make sure to download termux and termux api cuz most of my scripts depends on em
 One line command cuz why not ?
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Worthiit/My-termux-zsh/main/Myzsh.sh -o setup.sh && bash setup.sh
+curl -fsSL https://raw.githubusercontent.com/detox-slxsh/My-termux-zsh/main/Myzsh.sh -o setup.sh && bash setup.sh
 ```
 
 ### Features & my Shortcuts (Old + New)
