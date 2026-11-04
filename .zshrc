@@ -37,6 +37,8 @@ ZINIT[HOME_DIR]="$HOME/.local/share/zinit"
 ZINIT[PLUGINS_DIR]="$ZINIT[HOME_DIR]/plugins"
 ZINIT[OPTIMIZE_OUT_DISK_ACCESSES]=1
 
+
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 zi ice wait"0" lucid
 zi snippet OMZL::completion.zsh
 
@@ -59,6 +61,7 @@ zi ice wait"0" lucid atload'bindkey "^I" menu-select; bindkey -M menuselect "$te
 zi load marlonrichert/zsh-autocomplete
 
 eval "$(zoxide init zsh)"
+
 
 # Atuin History Search
 if command -v atuin &> /dev/null; then
@@ -92,12 +95,12 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias h='cd ~'
-alias ls="eza --icons"
-alias la="eza --icons -lgha --group-directories-first"
-alias l="eza --icons -lgha --group-directories-first"
-alias ly="eza --icons -lgha --group-directories-first"
-alias lt="eza --icons --tree"
-alias lta="eza --icons --tree -lgha"
+alias ls="eza --icons=auto"
+alias la="eza --icons=auto -lgha --group-directories-first"
+alias l="eza --icons=auto -lgha --group-directories-first"
+alias ly="eza --icons=auto -lgha --group-directories-first"
+alias lt="eza --icons=auto --tree"
+alias lta="eza --icons=auto --tree -lgha"
 alias preview="fzf --preview='bat --color=always --style=numbers --theme OneHalfDark {}' --preview-window=down"
 alias fnvim='nvim $(fzf -m --preview="bat --color=always --style=numbers --theme OneHalfDark {}" --preview-window=down)'
 alias fvim='vim $(fzf -m --preview="bat --color=always --style=numbers --theme OneHalfDark {}" --preview-window=down)'
