@@ -6,7 +6,7 @@
 #ORG Repo: My-termux-zsh
 
 <p align="center">
-  <img src="images/preview.jpg" alt="Termux Preview" width="600">
+  <img src="images/preview2.jpg" alt="Termux Preview" width="600">
 </p>
 
 
