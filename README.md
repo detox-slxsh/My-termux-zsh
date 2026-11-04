@@ -3,10 +3,15 @@
 * Color & style (darken)
 * Username
 
+<p align="center">
+  <img src="images/preview.png" alt="Termux Preview" width="600">
+</p>
+
+
 # ORG Repo: My-termux-zsh
 
 <p align="center">
-  <img src="images/preview.png" alt="Termux Preview" width="600">
+  <img src="images/preview.jpg" alt="Termux Preview" width="600">
 </p>
 
 
