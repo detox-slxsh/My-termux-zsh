@@ -1,5 +1,5 @@
 # My Changes
-## Shortcut menus realignment
+* Shortcut menus realignment
 * Color & style (darken)
 
 # My-termux-zsh
