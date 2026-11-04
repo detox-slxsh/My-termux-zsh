@@ -40,7 +40,7 @@ mkdir -p ~/.termux/ascii ~/.config/fastfetch ~/.termux/icons
 touch ~/.hushlogin
 echo "Reinhart" > ~/.termux_user
 
-REPO_USER="Worthiit"
+REPO_USER="detox-slxsh"
 REPO_NAME="My-termux-zsh"
 BRANCH="main"
 BASE_URL="https://raw.githubusercontent.com/$REPO_USER/$REPO_NAME/$BRANCH"
