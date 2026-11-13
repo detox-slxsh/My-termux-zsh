@@ -4,7 +4,7 @@
 * Username
 
 <p align="center">
-  <img src="images/preview.png" alt="Termux Preview" width="300">
+  <img src="images/my-preview.png" alt="Termux Preview" width="300">
 </p>
 
 
