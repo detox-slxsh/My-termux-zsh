@@ -3,8 +3,13 @@
 * Color & style (darken)
 * Username
 
+** Screenshots:
 <p align="center">
   <img src="images/my-preview.png" alt="Termux Preview" width="300">
+</p>
+
+<p align="center">
+  <img src="images/change-repo.png" alt="Termux Preview" width="300">
 </p>
 
 
